@@ -1,4 +1,6 @@
 /*
+October 4, 2024
+
 Extract The Domain Name From A URL
 
 https://www.codewars.com/kata/514a024011ea4fb54200004b
