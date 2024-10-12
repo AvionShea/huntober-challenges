@@ -22,12 +22,11 @@ An example would be: url = "http://www.zombie-bites.com"-> domain name = "zombie
 
 function domainName(url) {
   //replace things we don't know with an empty str
-  //split and grab domain from rest of str
   return url
     .replace("https://", "")
     .replace("http://", "")
     .replace("www.", "")
-    .split(".")[0];
+    .split(".")[0]; //split and grab domain from rest of str
 }
 
 console.log(domainName("http://github.com/carbonfive/raygun"), "github");
