@@ -15,8 +15,8 @@ arr of nums -> arr !== [] -> no crazy stuff
 return arr avg rounded down
 */
 
-const getAverage = (arr) =>
-  Math.floor(arr.reduce((a, b) => a + b) / arr.length);
+const getAverage = (marks) =>
+  Math.floor(marks.reduce((a, b) => a + b) / marks.length);
 
 console.log(getAverage([2, 2, 2, 2]), 2);
 console.log(getAverage([1, 2, 3, 4, 5]), 3);
