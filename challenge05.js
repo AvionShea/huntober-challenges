@@ -24,6 +24,9 @@ function solve(arr) {
     return arr.reduce((a, b) => a * new Set(b).size, 1)
 }
 
+//refactor
+const solve = (arr) => arr.reduce((a, b) => a * new Set(b).size, 1)
+
 console.log(solve([[1, 2], [4], [5, 6]]), 4)
 console.log(solve([[1, 2], [4, 4], [5, 6, 6]]), 4)
 console.log(solve([[1, 2], [3, 4], [5, 6]]), 8)
