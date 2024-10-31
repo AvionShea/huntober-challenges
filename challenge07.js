@@ -1,5 +1,5 @@
 /*
-october 24, 2024
+October 24, 2024
 
 https://leetcode.com/problems/jewels-and-stones/description/
 
