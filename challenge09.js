@@ -18,6 +18,7 @@ Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
 */
 
+//original
 function containsDuplicate(arr) {
     const numMap = {}
 
@@ -30,6 +31,11 @@ function containsDuplicate(arr) {
     }
     return false
 
+}
+
+//refactor
+function containsDuplicate(arr) {
+    return new Set(arr).size !== arr.length
 }
 
 console.log(containsDuplicate([1, 2, 3, 4]), false)
