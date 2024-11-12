@@ -41,3 +41,17 @@ function fib(numsGenerated) {
     }
     return fib(numsGenerated - 1) + fib(numsGenerated - 2)
 }
+
+//memorization
+const memo = {}
+function fib(n) {
+    if (n < 2) {
+        return n
+    } else if (memo[n]) {
+        return memo[n]
+    } else {
+        let result = fib(n - 1) + fib(n - 2)
+        memo[n] = result
+        return result
+    }
+}
