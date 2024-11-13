@@ -26,7 +26,7 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
 function countDown() {
     if (n === 0) {
-        console.log("Donezo!")
+        console.log("Finito!")
     } else {
         console.log(n);
         countDown(n - 1)
