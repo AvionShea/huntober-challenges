@@ -42,7 +42,7 @@ function fib(numsGenerated) {
     return fib(numsGenerated - 1) + fib(numsGenerated - 2)
 }
 
-//memorization
+//memorization - November 12, 2024
 const memo = {}
 function fib(n) {
     if (n < 2) {
